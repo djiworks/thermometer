@@ -11,7 +11,6 @@ DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(LCD_ADDR, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);
 
 void setup() {
-  // put your setup code here, to run once:
   dht.begin();
 
   lcd.begin(16,2);
